@@ -1,0 +1,10 @@
+streamlit
+pandas
+requests
+folium
+streamlit-folium
+python-dotenv
+tiktoken
+langchain
+faiss-cpu
+sentence-transformers
