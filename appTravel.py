@@ -11,7 +11,7 @@ from streamlit_folium import folium_static
 
 import tiktoken
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
@@ -224,4 +224,5 @@ def main():
         Adapted for Mapbox 🚀
         ''')
 if __name__ == '__main__':
+
     main()
