@@ -8,3 +8,6 @@ tiktoken
 langchain
 faiss-cpu
 sentence-transformers
+langchain
+langchain-community
+langchain-openai
